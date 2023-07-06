@@ -23,7 +23,7 @@ h2 {
 
 #logo {
     float: left;
-    height: 60px;
+    height: 80px;
 
 }
 
@@ -61,17 +61,15 @@ h2 {
 }
 
 #hero-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
+#cover-text, #cover-text h2 {
     color: #fff;
-
 }
 
 #hero-image {
@@ -105,7 +103,7 @@ h2 {
     width: 300px;
     height: 200px;
 
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 10px;
 
     background-color: rgba(207, 153, 71, 0.7);
@@ -113,6 +111,5 @@ h2 {
     bottom: 30px;
     right: 150px;
 
-
-    
+    position: absolute;
 }
