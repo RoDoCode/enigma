@@ -24,7 +24,7 @@ h2 {
 #logo {
     float: left;
     height: 80px;
-
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -112,4 +112,31 @@ h2 {
     right: 150px;
 
     position: absolute;
+}
+
+/* story overview styling */
+
+#story-overview {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: rgba(207, 153, 71, 0.7);
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgba(207, 153, 71, 0.7);
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: rgba(207, 153, 71, 0.7);
 }
