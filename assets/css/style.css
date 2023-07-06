@@ -62,5 +62,5 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/image-from-rawpixel-id-4048883-original.jpg) ro-repeat center center;
+    background: url('../images/image-from-rawpixel-id-4048883-jpeg.jpg') no-repeat center center;
 }
