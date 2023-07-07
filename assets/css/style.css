@@ -122,21 +122,21 @@ h2 {
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 20%;
     float: left;
     background-color: rgba(207, 153, 71, 0.7);
 }
 
 #center-about {
     padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
+    width: 20%;
+    /* margin: 0 auto; */
     background-color: rgba(207, 153, 71, 0.7);
 }
 
 #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 20%;
     float: right;
     background-color: rgba(207, 153, 71, 0.7);
 }
