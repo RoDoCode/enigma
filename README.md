@@ -35,7 +35,7 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to relevant social media sites for Enigma . The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
@@ -75,14 +75,13 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing has been conducted on all features of the Enigma up to its current status. All links lead to the relevant internal pages and external links, particularly for sources, have been tried and tested. Nav bar links have all been tested from each page to every other page. The responsive features all work as intended on each page. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Test users have been used and observed navigating the site unaided, and asked to find their way to specific pages without prior knowledge of how to get there. All test users successfully navigated to their targets after less than a minute and in fewer than 4 clicks. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The site has been tested via dev tools on a range of screens. The pages are responsive to changes in thedesktop window size changing. The site has been tested on: 1920x1080 monitor, 1082x1048 monitor and an iphone 13max screen. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+Bugs list: 
 
 ### Validator Testing 
 
@@ -93,25 +92,28 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No further bugs found at this time
 
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+Thanks: my thanks to Antonio Rodriguez for his mentoring advice through this project
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+Sources for article texts: 
+- https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
+
+Sources for images:
+- https://www.ebay.ie/itm/163632516778
+
+
 
 ### Content 
 
