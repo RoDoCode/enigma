@@ -2,9 +2,9 @@
 
 ENIGMA aims to be an easy to use historical information repository, about the Enigma machines used during the Second World War and the people who cracked the codes. The target audience is beginners learning about the war and the code breakers history for the first time, or for enthusiasts who would like to find more in depth knowledge on specific topics. 
 Searchers for this content may be children at school doing projects on the topic so the content is sensitive to this audience and avoids any specific content which might be disturbing or require parental guidance.  
-The project hopes to interesting, informative and, easy to understand so that users can easily learn from their time on the site.
+The project hopes to be interesting, informative and, easy to understand so that users can easily learn from their time on the site.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=0d9d4f31-c13b-474d-a166-6dbe943349b5)
 
 ## Features 
 
