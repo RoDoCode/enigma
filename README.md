@@ -4,7 +4,7 @@ ENIGMA aims to be an easy to use historical information repository, about the En
 Searchers for this content may be children at school doing projects on the topic so the content is sensitive to this audience and avoids any specific content which might be disturbing or require parental guidance.  
 The project hopes to be interesting, informative and, easy to understand so that users can easily learn from their time on the site.
 
-![Responsice Mockup]()
+![Logo Mockup](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=b0c3b395-4f39-4340-8d4f-4107e33830ce)
 
 ## Features 
 
@@ -24,8 +24,6 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
   - Featured on all three pages, the full responsive navigation bar includes links to the Home, Gallery, Timeline, Topics, Contact Us page and is identical in each page to allow for easy and clear navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar]()
-
 - __The landing page__
 
   - The landing includes introduction paragraph followed by a breif history of ENIGMA with links to relevant pages on the site and a suggestion to start with the timeline or the gallery. 
@@ -37,8 +35,6 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
 
   - The footer section includes links to relevant social media sites for Enigma . The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 - __Gallery Page__
 
