@@ -4,7 +4,7 @@ ENIGMA aims to be an easy to use historical information repository, about the En
 Searchers for this content may be children at school doing projects on the topic so the content is sensitive to this audience and avoids any specific content which might be disturbing or require parental guidance.  
 The project hopes to be interesting, informative and, easy to understand so that users can easily learn from their time on the site.
 
-![Responsice Mockup](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=0d9d4f31-c13b-474d-a166-6dbe943349b5)
+![Responsice Mockup]()
 
 ## Features 
 
@@ -24,14 +24,14 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
   - Featured on all three pages, the full responsive navigation bar includes links to the Home, Gallery, Timeline, Topics, Contact Us page and is identical in each page to allow for easy and clear navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page__
 
   - The landing includes introduction paragraph followed by a breif history of ENIGMA with links to relevant pages on the site and a suggestion to start with the timeline or the gallery. 
   - This section introduces the user to ENIGMA with eye catching images to grab their attention and explanatory text to guide them on 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=c78ff077-c5ca-486c-9aca-d8a1c23f6c3f)
 
 - __The Footer__ 
 
@@ -40,32 +40,32 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __Gallery Page__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=ff61c1be-c816-48af-820e-a07b27b1c9f3)
 
-- __The Sign Up Page__
+- __Subscribe Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=59e5bc1b-42e2-4902-a8c7-116a2cfe51e5)
 
-- __Club Ethos Section__
+- __Articles Nav Page__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=552193ab-b7d7-4ef7-9df1-71b39aeec8a5)
 
-- __Meetup Times section__
+- __Timeline Page__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=436f16f6-80b1-4e97-866d-9d2c7b305f4e)
 
 
 ### Features Left to Implement
