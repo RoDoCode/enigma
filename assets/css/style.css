@@ -6,6 +6,10 @@
     border: none;
 }
 
+header {
+    background-color: black;
+}
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
