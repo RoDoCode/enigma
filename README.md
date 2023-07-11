@@ -118,7 +118,10 @@ Sources for images:
 
 Sources for article text: 
 - Homepage - https://en.wikipedia.org/wiki/World_War_II_cryptography#:~:text=Cryptography%20was%20used%20extensively%20during,the%20latter%20using%20rotor%20machines.
+
 - Forgotten Heroes - https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
+
+- Timeline - https://enigma.umww.pl/en/enigma-timeline/
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
