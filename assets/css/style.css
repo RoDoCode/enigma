@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 
 * {
     margin: 0;
@@ -13,7 +15,7 @@ header {
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #d30101;
 }
 
 /* headings and logo */
@@ -22,7 +24,7 @@ h1,
 h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
-    color: #252525;
+    color: #04c64b;
 }
 
 #logo {
@@ -57,7 +59,7 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #e10101;
 }
 
 .active {
@@ -72,14 +74,15 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
+#cover-text,
+#cover-text h2 {
+    color: rgb(146, 7, 7);
 }
 
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/image-from-rawpixel-id-4048883-original-edited.png') no-repeat center center;
+    background: url('../images/lrg_pic_enigmamachine.png') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
