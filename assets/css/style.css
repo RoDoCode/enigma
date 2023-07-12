@@ -39,39 +39,27 @@ body {
 /* Navigation Links */
 
 .navbar {
-    display: flex;
-    background: #3a3a3a;
-    color: white;
-    height: 50px;
     width: 100%;
-    margin-top: 0px;
-    position: fixed;
-}
-
-.navbar>li {
-    width: 375px;
+    background: #3a3a3a;
     height: 50px;
-    margin: 10px;
-    text-align: center;
 }
 
-#menu {
-    line-height: 50px;
-    position: fixed;
-    left: 33%;
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar li {
     font-size: 110%;
-    letter-spacing: 4px;
+    color: white;
 }
 
-#menu #logo {
-    line-height: 75px;
-}
-
-#menu li {
+/* #menu li {
     display: inline;
-    list-style-type: none;
-    margin-right: 30px;
-}
+    list-style-type: none;}*/
+/* margin-right: 30px; */
 
 #menu a {
     text-decoration: none;
@@ -86,9 +74,11 @@ body {
     border-bottom: 1px solid #ffffff
 }
 
+/* Hero Image with Text - Section 1 */
+
 #hero {
     height: 500px;
-    width: 50%;
+
     overflow: hidden;
     position: relative;
     margin-top: 200px;
