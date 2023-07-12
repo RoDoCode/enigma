@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +11,8 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
 }
+
+/*Logo, Header and Subscribe Link*/
 
 .flex-container-header {
     display: flex;
@@ -30,7 +31,15 @@ body {
     color: white;
 }
 
+#logo {
+    height: 80px;
+    width: 154px;
+}
+
+/* Navigation Links */
+
 .navbar {
+    display: flex;
     background: #3a3a3a;
     color: white;
     height: 50px;
@@ -39,19 +48,19 @@ body {
     position: fixed;
 }
 
-#logo {
-    height: 80px;
-    width: 154px;
+.navbar>li {
+    width: 375px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
 }
 
-/* navigation links */
 #menu {
     line-height: 50px;
     position: fixed;
     left: 33%;
     font-size: 110%;
     letter-spacing: 4px;
-
 }
 
 #menu #logo {
@@ -77,13 +86,17 @@ body {
     border-bottom: 1px solid #ffffff
 }
 
-#hero-outer {
+#hero {
     height: 500px;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
     position: relative;
+    margin-top: 200px;
 }
 
+
+
+/*
 #hero-image {
     height: 500px;
     width: 100%;
@@ -104,3 +117,5 @@ body {
     right: 150px;
     position: absolute;
 }
+
+*/
