@@ -21,7 +21,7 @@ body {
 }
 
 .flex-container-header>div {
-    width: 333px;
+    width: 500px;
     height: 80px;
     margin: 10px;
     text-align: center;
@@ -30,26 +30,14 @@ body {
     color: white;
 }
 
-.header p {
-    margin-left: 25px;
-}
-
 .navbar {
     background: #3a3a3a;
     color: white;
     height: 50px;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 0px;
     position: fixed;
 }
-
-/* #subscribe {
-    float: right;
-    margin-right: 50px;
-    margin-top: 40px;
-} */
-
-/* headings and logo */
 
 #logo {
     height: 80px;
@@ -107,17 +95,12 @@ body {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 60px;
     padding-left: 10px;
-
     background-color: rgba(207, 153, 71, 0.7);
-
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 }
