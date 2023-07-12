@@ -8,39 +8,55 @@
     border: none;
 }
 
-header {
-    background-color: black;
-}
-
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #d30101;
+}
+
+.header {
+    background: #000000;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+.header p {
+    margin-left: 25px;
+}
+
+.navbar {
+    background: #3a3a3a;
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 80px;
+    position: fixed;
+}
+
+#subscribe {
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
 }
 
 /* headings and logo */
-
-h1,
-h2 {
-    font-family: Oswald, sans-serif;
-    letter-spacing: 4px;
-    color: #04c64b;
-}
 
 #logo {
     float: left;
     height: 80px;
     margin-left: 30px;
+    position: fixed;
 }
 
 /* navigation links */
-
 #menu {
-    line-height: 75px;
+    line-height: 50px;
     position: fixed;
     left: 33%;
     font-size: 110%;
     letter-spacing: 4px;
+
 }
 
 #menu #logo {
@@ -59,46 +75,24 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #e10101;
+    border-bottom: 1px solid #ffffff;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #ffffff
 }
 
 #hero-outer {
     height: 500px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
-}
-
-#cover-text,
-#cover-text h2 {
-    color: rgb(146, 7, 7);
 }
 
 #hero-image {
     height: 500px;
     width: 100%;
     background: url('../images/lrg_pic_enigmamachine.png') no-repeat center center;
-
-    /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/* creates the level of zoom for the hero image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1)
-    }
-
-    to {
-        transform: scale(1.1)
-    }
 }
 
 #cover-text {
@@ -119,31 +113,4 @@ h2 {
     right: 150px;
 
     position: absolute;
-}
-
-/* story overview styling */
-
-#story-overview {
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 20%;
-    float: left;
-    background-color: rgba(207, 153, 71, 0.7);
-}
-
-#center-about {
-    padding-top: 30px;
-    width: 20%;
-    /* margin: 0 auto; */
-    background-color: rgba(207, 153, 71, 0.7);
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 20%;
-    float: right;
-    background-color: rgba(207, 153, 71, 0.7);
 }
