@@ -122,6 +122,7 @@ Sources for article text:
 - Forgotten Heroes - https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
 
 - Timeline - https://enigma.umww.pl/en/enigma-timeline/
+           - https://www.w3schools.com/howto/howto_css_timeline.asp
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
