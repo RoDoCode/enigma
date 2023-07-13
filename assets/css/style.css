@@ -79,10 +79,12 @@ body {
     border-bottom: 1px solid #ffffff
 }
 
+/* Footer CSS */
+
 footer {
     width: 100%;
     background: #3a3a3a;
-    height: 50px;
+    height: 140px;
 }
 
 /* Hero Image with Text - Section 1 */
