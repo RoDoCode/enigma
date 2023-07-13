@@ -1,10 +1,29 @@
 # ENIGMA
 
-ENIGMA aims to be an easy to use historical information repository, about the Enigma machines used during the Second World War and the people who cracked the codes. The target audience is beginners learning about the war and the code breakers history for the first time, or for enthusiasts who would like to find more in depth knowledge on specific topics. 
+ENIGMA aims to be an easy to use historical information repository, about the Enigma machines used during the Second World War and the people who cracked the codes. The target audience is beginners learning about the war and the code breakers history for the first time, or for enthusiasts who would like to find more in depth knowledge on specific topics. Educating users about cryptography during WW2 is the primary function of the site. 
 Searchers for this content may be children at school doing projects on the topic so the content is sensitive to this audience and avoids any specific content which might be disturbing or require parental guidance.  
 The project hopes to be interesting, informative and, easy to understand so that users can easily learn from their time on the site.
 
-![Logo Mockup](assets/images/logo_enigma.jpg)
+## Planning
+
+### Strategy
+Culturally appropriate -
+Relevant content - 
+Track and cataloguing - 
+Why special? - 
+Tech considerations - 
+Why would user want this? - 
+What's worth doing? -
+Will it add value? - 
+### Scope
+
+### Structure
+
+### Skeleton
+
+### Surface
+
+![Logo Mockup](assets/images/logo_2_comp.png)
 
 ## Features 
 
@@ -41,27 +60,27 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](assets/images/mock_gallery.png)
+![Gallery Page](assets/images/mock_gallery.png)
 
 - __Subscribe Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](assets/images/mock_subscribe.png)
+![Subscribe Page](assets/images/mock_subscribe.png)
 
 - __Articles Nav Page__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-![Club Ethos](assets/images/mock_articles.png)
+![Articles Page](assets/images/mock_articles.png)
 
 - __Timeline Page__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://rodocode-enigma-w482ty87h0.us2.codeanyapp.com/files/download/?id=436f16f6-80b1-4e97-866d-9d2c7b305f4e)
+![Timeline Page](/assets/images/mock_timeline.png)
 
 
 ### Features Left to Implement
