@@ -224,3 +224,22 @@ footer {
         left: 0%;
     }
 }
+
+/* Gallery Wall Flexbox */
+
+.flex-gallery {
+    display: flex;
+    flex-direction: wrap;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-gallery>div {
+    width: calc(100% / 3);
+    height: same-as-width;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: white;
+}
