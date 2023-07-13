@@ -36,6 +36,11 @@ body {
     width: 154px;
 }
 
+#subscribe {
+    color: #ffffff;
+    font-size: medium;
+}
+
 /* Navigation Links */
 
 .navbar {
