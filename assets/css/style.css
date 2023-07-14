@@ -237,10 +237,14 @@ footer {
 }
 
 .flex-gallery>div {
-    width: calc(100% / 3);
+    width: 33%;
     aspect-ratio: 1 / 1;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
     color: white;
+}
+
+.flex-gallery img{
+    width: 95%;
 }
