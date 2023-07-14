@@ -240,11 +240,12 @@ footer {
     width: 33%;
     aspect-ratio: 1 / 1;
     text-align: center;
-    line-height: 75px;
+    line-height: auto;
     font-size: 30px;
     color: white;
+    font-size: small;
 }
 
-.flex-gallery img{
+.flex-gallery img {
     width: 95%;
 }
