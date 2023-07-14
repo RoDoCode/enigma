@@ -244,6 +244,7 @@ footer {
     font-size: 30px;
     color: white;
     font-size: small;
+    margin: 10px; 
 }
 
 .flex-gallery img {
