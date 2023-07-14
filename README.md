@@ -24,7 +24,7 @@ What will the user expect? -
 
 ### Surface
 
-![Logo Mockup](assets/images/logo_2_comp.png)
+![Logo Mockup](assets/images/mock_pages/logo_2_comp.png)
 
 ## Features 
 
@@ -49,7 +49,7 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
   - The landing includes introduction paragraph followed by a breif history of ENIGMA with links to relevant pages on the site and a suggestion to start with the timeline or the gallery. 
   - This section introduces the user to ENIGMA with eye catching images to grab their attention and explanatory text to guide them on 
 
-![Landing Page](assets/images/mock_homepage.png)
+![Landing Page](assets/images/mock_pages/mock_homepage.png)
 
 - __The Footer__ 
 
@@ -61,27 +61,27 @@ Topic pages - topics pages cover key timeline periods with an overview of the na
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery Page](assets/images/mock_gallery.png)
+![Gallery Page](assets/images/mock_pages/mock_gallery.png)
 
 - __Subscribe Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Subscribe Page](assets/images/mock_subscribe.png)
+![Subscribe Page](assets/images/mock_pages/mock_subscribe.png)
 
 - __Articles Nav Page__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-![Articles Page](assets/images/mock_articles.png)
+![Articles Page](assets/images/mock_pages/mock_articles.png)
 
 - __Timeline Page__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Timeline Page](/assets/images/mock_timeline.png)
+![Timeline Page](/assets/images/mock_pages/mock_timeline.png)
 
 
 ### Features Left to Implement
