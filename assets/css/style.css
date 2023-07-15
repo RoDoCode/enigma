@@ -297,10 +297,10 @@ body {
     width: 33%;
     aspect-ratio: 1 / 1;
     text-align: center;
-    line-height: auto;
+    line-height: 130%;
     font-size: 30px;
     color: white;
-    font-size: small;
+    font-size: medium;
     margin: 10px; 
 }
 
