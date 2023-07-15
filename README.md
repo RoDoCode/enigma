@@ -1,173 +1,176 @@
 # ENIGMA
 
-ENIGMA aims to be an easy to use historical information repository, about the Enigma machines used during the Second World War and the people who cracked the codes. The target audience is beginners learning about the war and the code breakers history for the first time, or for enthusiasts who would like to find more in depth knowledge on specific topics. Educating users about cryptography during WW2 is the primary function of the site. 
+Enigma is a website that aims to teach users about cryptography used during the Second World War. The site is intended for users who want to learn about the history surrounding that period for educational purposes. 
+
+The target audience is beginners learning about the war and the code breakers history for the first time, or for enthusiasts who would like to find more in depth knowledge on specific topics. 
+
+Enigma includes articles accompanied by historical photographs which elaborate on details of the overall story of the Enigma codes and cryptography as a whole during the war and years following after. Users can get a sense of the entire narrative on the Timeline page or visualize some of the characters, mechanisms and locations on the Gallery page. The site also includes a subscribe form for users to add their email address to a mailing list for a monthly newsletter which will include links to new articles and gallery content. 
+
+The live link can be found here - [Enigma](https://rodocode.github.io/enigma/)
+
+![Enigma Am I Responsive Image](assets/images/am-i-responsive.png)
+
 Searchers for this content may be children at school doing projects on the topic so the content is sensitive to this audience and avoids any specific content which might be disturbing or require parental guidance.  
-The project hopes to be interesting, informative and, easy to understand so that users can easily learn from their time on the site.
 
-## Planning
+## Site Owner Goals 
+- To provide the user with information which is interesting, informative and, easy to understand so that users can easily learn from their time on the site. 
+- To provide the user with a clear picture of the whole story of Enigma and how the codes were broken.
+- To present the user with a website that is intuitive to navigate, fully responsive and gives the feeling of accessing an archive of historical knowledge. 
+- To encourage users to want to sign up for the newsletter and learn more.
 
-### Strategy
-Culturally appropriate -
-Relevant content - 
-Track and cataloguing - 
-Why special? - 
-Tech considerations - 
-Why would user want this? - 
-What's worth doing? -
-Will it add value? - 
-What will the user expect? - 
-### Scope
+## User Stories
+- ### First time user
+  - As a first time user I want to understand the story which is being told and how to investigate further with this tool.
+  - As a first time user I want to feel that I am absorbing the information at an easy comfortable pace. 
+  - As a first time user I want to see images with the story portions so I can picture what is being spoken about.
 
-### Structure
+- ### Returning User
+  - As a returning user I want to easily navigate to a specific article which I am interested in researching
+  - As a returning user I want to find new details which I didn't learn on my first visit.
+  - As a returning user I want to find my back to a particular image or article.
 
-### Skeleton
+- ### Frequent User
+  - As a frequent user I want to be able to sign-up to the Enigma newsletter in order to get updates on new articles on the website.
+  - As a frequent user I want to be able to flip between article pages quickly to cross check dates of coinciding stories.
 
-### Surface
+## Design
 
-![Logo Mockup](assets/images/mock_pages/logo_2_comp.png)
+### Imagery
+The photographs used in Enigma are integral to the site. These images speak a thousand words for the stories of the people captured in them. These images bring the story of WW2 to life and give site users a face they can empathize with and relate to. 
 
-## Features 
+### Colours
+The colour scheme of Enigma is grey scale with pops of red. This matches the styling of a lot of other historical sites and is a familiar colour palatte used in archival educational sites, this lets users inuitively feel the setting of the content. Helpfully this colour scheme allows for high contrast between text and backgrounds for easy on screen reading.
 
-Landing Page - This page gives the user a rapid understanding of what the site is about and how they can use it. To the right are a selection of navigation buttons leading to topic page, central is our introductory text which welcomes and guides the user. This page is eesential for allowing all users to understand the purpose of the site, that they are in the right place to find out more and to intuitively teach them how to use the site.  
-Navigation Bar - Home, Gallery, Timeline, Topics, Contact Us - users come to the site with different levels of familiarity with the content so a range of different ways to navigate the content are crucial. Some allow the user to absorb and understand the content slowly as they navigate so that each section ahead makes sense while others are more direct for those that know what they are looking for. 
-Home - is index.html - a clear link back to the homepage so that users can start again when they are finished with a particular topic
-Gallery - gallery.html - a collection of images with clear descriptions with hyperlinks to relevant pages where users can learn more
-Timeline - timeline.html - a single page interactive infographic which the user can learn from and also use to navigate the site. The timeline will follow the start of the Enigma story through to it's conclusions with hyperlinks at each key stage which has a relevant page on the site
-Topics - is a drop dow with a list of all the pages on the site, titled clearly for a user who is more familiar with the topics or for anyone to explore at their leisure
-Contact Us - contactus.html - a simple form which allows a user to send an email to my personal email so that they can suggest ammendments to information or feedback for the site. There are several dropdowns for the user to input their own email for follow up responses and also to define their background student/academic/expert
-Topic pages - topics pages cover key timeline periods with an overview of the narrative with links to more specific detailed pages
+### Fonts
+The Lato and Oswald fonts are the two fonts used across the website. Both are imported from [Google Fonts](https://fonts.google.com/). Sans Serif is the backup font, this allows the site cope with any import or compatibility issues with GoogleFonts.
 
-### Existing Features
+## Wireframes
+Balsamiq was use to generate the wireframes. 
 
-- __Navigation Bar__
+ <details>
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Home, Gallery, Timeline, Topics, Contact Us page and is identical in each page to allow for easy and clear navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+ <summary>Desktop Wireframe</summary>
 
-- __The landing page__
-
-  - The landing includes introduction paragraph followed by a breif history of ENIGMA with links to relevant pages on the site and a suggestion to start with the timeline or the gallery. 
-  - This section introduces the user to ENIGMA with eye catching images to grab their attention and explanatory text to guide them on 
-
-![Landing Page](assets/images/mock_pages/mock_homepage.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to relevant social media sites for Enigma . The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-- __Gallery Page__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
+![Homepage Wireframe](assets/images/mock_pages/mock_homepage.png)
 ![Gallery Page](assets/images/mock_pages/mock_gallery.png)
-
-- __Subscribe Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
+![Timeline Page](/assets/images/mock_pages/mock_timeline.png)
+![Articles Page](assets/images/mock_pages/mock_articles.png)
 ![Subscribe Page](assets/images/mock_pages/mock_subscribe.png)
 
-- __Articles Nav Page__
+ </details>
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+ <details>
 
-![Articles Page](assets/images/mock_pages/mock_articles.png)
+<summary>Mobile Wireframe</summary>
 
-- __Timeline Page__
+ </details>
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+## Features
+### Landing Page
+This section introduces the user to ENIGMA with eye catching images to grab their attention and guide them on through the site. The page gives the user a rapid understanding of what the site is about and how they can use it. Users are met by a hero image with brief text introducing an interest and key element of the overall Enigma narrative.
+There are different types of articles arrayed in several different sections to allow the user to feel how best they would like to learn.
 
-![Timeline Page](/assets/images/mock_pages/mock_timeline.png)
+### Navigation Bar
+Home, Gallery, Timeline, Articles - users come to the site with different levels of familiarity with the content so a range of different ways to navigate the content are crucial. Some allow the user to absorb and understand the content slowly as they navigate so that each section ahead makes sense while others are more direct for those that know what they are looking for.
 
+### Gallery
+A collection of images with clear descriptions with hyperlinks to relevant pages where users can learn more. The images themselves are large and detailed, they are meant to be inspiring and interesting in and of themselves; a rare glimpse into the past.
+
+### Timeline
+A single page interactive info-graphic which the user can learn from and also use to navigate the site. The timeline will follow the start of the Enigma story through to it's conclusions with hyperlinks at each key stage which has a relevant page on the site
+
+### Article
+This is a drop down with a list of all the pages on the site, titled clearly for a user who is more familiar with the topics or for anyone to explore at their leisure. Article pages cover key timeline periods with an overview of the narrative with links to more specific detailed pages
+
+### Subscribe to Newsletter
+A simple form which allows a user to sign up to a mailing list and to leave a little feedback with suggestions for amendments or additions to the site. There are several drop downs for the user to input their own email for follow up responses and also to define their background student/academic/expert
+
+### The Footer
+The footer section includes links to relevant social media sites for Enigma . The links will open to a new tab to allow easy navigation for the user.
+The footer also include site navigation links so users don't have to scroll to the top of the page. 
 
 ### Features Left to Implement
+All of the articles this site would host are simply too numerous to curate and implement during this project. However there are adequate examples of all types of articles already included in this project so it is only the sheer quantity of stories and deep dive articles into this subject which the site is yet to implement fully. 
 
-- Another feature idea
+## Testing
+### Validator Testing
+- #### HTML
+    - No errors were returned when passing through the official W3C Markup Validator
+        - [W3C Validator Results](ROOORY ADD THIS AT THE END)
+- #### CSS
+    - No errors were found when passing through the official W3C CSS Validator
+        - [W3C CSS Validator Results](ROOORY ADD THIS AT THE END)
+- #### Accessibility 
+    - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+		- [Lighthouse Validator Results](ROOORY ADD THIS AT THE END)
 
+### Form Testing
+- The subscription page has been tested to show that it will submit to the database, and only after required input fields have been filled in (full name and email address).
 
-## Testing 
+### Links Testing
+Testing has been conducted on all features of the Enigma site up to its current status. All links lead to the relevant internal pages and external links, particularly for sources, have been tried and tested. Nav bar links have all been tested from each page to every other page. All social media links have also been tested.
 
-Testing has been conducted on all features of the Enigma up to its current status. All links lead to the relevant internal pages and external links, particularly for sources, have been tried and tested. Nav bar links have all been tested from each page to every other page. The responsive features all work as intended on each page. 
+### Browser Testing
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+    
+### Device Testing
+The site has been tested via dev tools on the full range of screens available there. The pages are responsive to changes in the desktop window size. The site has been tested on: 1920x1080 monitor, 1082x1048 monitor and an iPhone 13 Pro Max screen. 
 
-Test users have been used and observed navigating the site unaided, and asked to find their way to specific pages without prior knowledge of how to get there. All test users successfully navigated to their targets after less than a minute and in fewer than 4 clicks. 
+- I also used the following websites to test responsiveness:
+    - [Responsinator](http://www.responsinator.com/?ROOOOOOORRRY)
+    - [Am I Responsive](http://ami.responsivedesign.is/?ROOOOOOORRRY)
 
-The site has been tested via dev tools on a range of screens. The pages are responsive to changes in thedesktop window size changing. The site has been tested on: 1920x1080 monitor, 1082x1048 monitor and an iphone 13max screen. 
+### User Testing
+Test users have been used and observed navigating the site unaided, and asked to find their way to specific pages without prior knowledge of how to get there. All test users successfully navigated to their targets after less than a minute and in fewer than 4 clicks.
 
-Bugs list: 
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+### Bugs list:
 
 ### Unfixed Bugs
-
 No further bugs found at this time
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the pages section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-## Credits 
+The live link can be found here - [Enigma](https://rodocode.github.io/enigma/)
 
-Thanks: my thanks to Antonio Rodriguez for his mentoring advice through this project
+  ### Frameworks - Libraries - Programs Used
+ - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+ - [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+ - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+ - [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+ - [GitHub](https://github.com/) - Used for version control and hosting.
+ - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+ - [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+ - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+ - [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+ - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
 
-Sources for article texts: 
+## Credits
+
+### Thanks
+My thanks to Antonio Rodriguez for his mentoring advice through this project. Lifesaver.
+
+### Sources for article texts:
+
+- https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
+ - https://en.wikipedia.org/wiki/World_War_II_cryptography#:~:text=Cryptography%20was%20used%20extensively%20during,the%20latter%20using%20rotor%20machines.
+
 - https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
 
-Sources for images:
+- https://enigma.umww.pl/en/enigma-timeline/
+
+### Sources for images:
+
 - https://www.ebay.ie/itm/163632516778
 - https://stocksnap.io/photo/atlas-continent-E0X04K7JKH
 - https://www.pexels.com/photo/statue-of-winston-churchill-standing-against-a-dark-background-16805416/
 - https://www.rawpixel.com/image/6043378/photo-image-public-domain-free
-- 
-- 
 
-### Content 
+### Formatting Techniques
+- https://www.w3schools.com/howto/howto_css_timeline.asp
 
-Sources for article text: 
-- Homepage - https://en.wikipedia.org/wiki/World_War_II_cryptography#:~:text=Cryptography%20was%20used%20extensively%20during,the%20latter%20using%20rotor%20machines.
-
-- Forgotten Heroes - https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
-
-- Timeline - https://enigma.umww.pl/en/enigma-timeline/
-           - https://www.w3schools.com/howto/howto_css_timeline.asp
-
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-Sources for images are all open source:
-Homepage:
-- https://www.ebay.ie/itm/163632516778
-
-Gallery:
-- https://stocksnap.io/photo/atlas-continent-E0X04K7JKH
-- https://www.pexels.com/photo/statue-of-winston-churchill-standing-against-a-dark-background-16805416/
-- https://www.rawpixel.com/image/6043378/photo-image-public-domain-free
-
-Timeline:
-- The images used for the gallery page were taken from this other open source site
- 
-
-## Other General Project Advice
-
-
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-
-<a href="https://stocksnap.io/photo/atlas-continent-E0X04K7JKH">Photo</a> by <a
-            href="https://stocksnap.io/author/worldmaps">World Maps</a> on <a href="https://stocksnap.io">StockSnap</a>
+![Logo Mockup](assets/images/mock_pages/logo_2_comp.png)
