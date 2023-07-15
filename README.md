@@ -145,7 +145,7 @@ The live link can be found here - [Enigma](https://rodocode.github.io/enigma/)
  - [GitHub](https://github.com/) - Used for version control and hosting.
  - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
  - [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
- - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+ - [https://stackedit.io/app#] - Used to write Markdown for ReadMe
  - [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
  - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
 
@@ -158,10 +158,15 @@ My thanks to Antonio Rodriguez for his mentoring advice through this project. Li
 
 - https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
  - https://en.wikipedia.org/wiki/World_War_II_cryptography#:~:text=Cryptography%20was%20used%20extensively%20during,the%20latter%20using%20rotor%20machines.
-
 - https://www.nature.com/articles/d41586-018-06149-y#:~:text=In%201926%2C%20the%20German%20navy,set%20of%20bulbs%20on%20top.
-
 - https://enigma.umww.pl/en/enigma-timeline/
+- https://www.historytoday.com/
+- https://www.cryptomuseum.com/crypto/enigma/photo.htm
+- https://en.wikipedia.org/wiki/Bletchley_Park
+- https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma
+- https://en.wikipedia.org/wiki/Bletchley_Park
+- https://www.history.com/this-day-in-history/enigma-key-broken
+- https://www.history.com/this-day-in-history/germans-get-enigma
 
 ### Sources for images:
 
@@ -172,5 +177,9 @@ My thanks to Antonio Rodriguez for his mentoring advice through this project. Li
 
 ### Formatting Techniques
 - https://www.w3schools.com/howto/howto_css_timeline.asp
+- https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout
+- https://stackoverflow.com/questions/67552405/flexbox-image-gallery-with-diffrent-sizes
+- https://www.geeksforgeeks.org/how-to-set-space-between-the-flexbox/
+- https://www.javatpoint.com/css-lists
 
 ![Logo Mockup](assets/images/mock_pages/logo_2_comp.png)
