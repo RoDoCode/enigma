@@ -81,10 +81,33 @@ body {
 
 /* Footer CSS */
 
-footer {
+.flex-container-footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    justify-content: center;
     width: 100%;
-    background: #3a3a3a;
-    height: 140px;
+}
+
+.flex-container-footer>div {
+    width: calc(100% / 3);
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+.flex-container-footer ul {
+    font-size: medium;
+    list-style-type: none;
+    line-height: 25px;
+    color: white;
+}
+
+.flex-container-footer a {
+    color: white;
 }
 
 /* Landing Page */
