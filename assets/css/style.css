@@ -319,185 +319,72 @@ body {
     margin-bottom: 2rem;
 }
 
-.photo-gallery {
+div.photo-gallery {
+    width: 92%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div.photo-gallery .gallery-column {
+    margin: 0 auto;
+    width: 100%;
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 auto;
 }
 
-.gallery-column {
+div.photo-gallery .gallery-column .photo {
+    width: 32%;
+    height: auto;
+    margin: auto;
+    padding: 4px;
+    background-color: #efefef;
+    position: relative;
+}
+
+div.photo-gallery .gallery-column .photo img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: 0.5s;
+}
+
+div.photo-gallery .gallery-column .photo:hover img {
+    background-color: #635ca8;
+    opacity: 0.2;
+}
+
+.gallery-column .photo .overlay {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width:30%;
+    position: absolute;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: 0.5s;
+    transform: scale(0);
+    transform-origin: bottom;
 }
 
-.photo1 {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    object-fit: cover;
-    background: url('../images/gallery/1-enigma_in_the_field.jpg') no-repeat center center;
+.gallery-column .photo:hover .overlay {
+    transform: scale(1);
+    box-shadow: inset 0 0 0 1px red;
 }
 
-.photo2 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/2-westfeldzug.jpg') no-repeat center center;
-}
-
-.photo3 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/3-guderian.jpg') no-repeat center center;
-}
-
-.photo4 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/4-rebuilt_bombe.jpg') no-repeat center center;
-}
-
-.photo5 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/5-colossus.jpg') no-repeat center center;
-}
-
-.photo6 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/6-enigma_machine_labeled.jpg') no-repeat center center;
-}
-
-.photo7 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/7-enigma-plugboard.jpg') no-repeat center center;
-}
-
-.photo8 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/8-marian_rejewski_1932.jpg') no-repeat center center;
-}
-
-.photo9 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/9-us_bombe.jpg') no-repeat center center;
-}
-
-.photo10 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/10-omaha_beach.jpg') no-repeat center center;
-}
-
-.photo11 {
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    object-fit: cover;
-    background: url('../images/gallery/11-forgotten_heroes.png') no-repeat center center;
-}
 
 @media(max-width: 768px) {
     .photo-gallery {
         flex-direction: column;
     }
 }
-
-.overlay {
-    position: relative;
-    border-radius: 5px;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #3a3a3a;
-    display:flex;
-    flex-direction: column;
-}
-
-.photo1:hover .overlay {
-    opacity: .9;
-} 
-
-.photo2:hover .overlay {
-    opacity: .9;
-}
-
-.photo3:hover .overlay {
-    opacity: .9;
-}
-
-.photo4:hover .overlay {
-    opacity: .9;
-}
-
-.photo5:hover .overlay {
-    opacity: .9;
-}
-
-.photo6:hover .overlay {
-    opacity: .9;
-}
-
-.photo7:hover .overlay {
-    opacity: .9;
-}
-
-.photo8:hover .overlay {
-    opacity: .9;
-}
-
-.photo9:hover .overlay {
-    opacity: .9;
-}
-
-.photo10:hover .overlay {
-    opacity: .9;
-}
-
-.photo11:hover .overlay {
-    opacity: .9;
-}
-
-.overlay h1 {
-    color: white;
-    font-size: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 3%;
-    text-align: justify;
-}
-
-.text {
-    color: white;
-    font-size: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 3%;
-    text-align: justify;
