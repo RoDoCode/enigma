@@ -34,12 +34,12 @@ body {
     color: white;
 }
 
-#logo {
+.logo {
     height: 80px;
     width: 154px;
 }
 
-#subscribe {
+.subscribe {
     color: #ffffff;
     font-size: medium;
 }
@@ -328,13 +328,95 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width:30%;
 }
 
-.photo img {
+.photo1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    background: url('../images/gallery/1-enigma_in_the_field.jpg') no-repeat center center;
+}
+
+.photo2 {
     width: 100%;
     border-radius: 5px;
     height: 100%;
     object-fit: cover;
+    background: url('../images/gallery/2-westfeldzug.jpg') no-repeat center center;
+}
+
+.photo3 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/3-guderian.jpg') no-repeat center center;
+}
+
+.photo4 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/4-rebuilt_bombe.jpg') no-repeat center center;
+}
+
+.photo5 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/5-colossus.jpg') no-repeat center center;
+}
+
+.photo6 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/6-enigma_machine_labeled.jpg') no-repeat center center;
+}
+
+.photo7 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/7-enigma-plugboard.jpg') no-repeat center center;
+}
+
+.photo8 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/8-marian_rejewski_1932.jpg') no-repeat center center;
+}
+
+.photo9 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/9-us_bombe.jpg') no-repeat center center;
+}
+
+.photo10 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/10-omaha_beach.jpg') no-repeat center center;
+}
+
+.photo11 {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    background: url('../images/gallery/11-forgotten_heroes.png') no-repeat center center;
 }
 
 @media(max-width: 768px) {
@@ -344,29 +426,78 @@ body {
 }
 
 .overlay {
-    position: absolute;
+    position: relative;
+    border-radius: 5px;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
     height: 100%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #3a3a3a;
+    display:flex;
+    flex-direction: column;
 }
 
-.photo:hover .overlay {
-    opacity: 1 !important;
+.photo1:hover .overlay {
+    opacity: .9;
+} 
+
+.photo2:hover .overlay {
+    opacity: .9;
+}
+
+.photo3:hover .overlay {
+    opacity: .9;
+}
+
+.photo4:hover .overlay {
+    opacity: .9;
+}
+
+.photo5:hover .overlay {
+    opacity: .9;
+}
+
+.photo6:hover .overlay {
+    opacity: .9;
+}
+
+.photo7:hover .overlay {
+    opacity: .9;
+}
+
+.photo8:hover .overlay {
+    opacity: .9;
+}
+
+.photo9:hover .overlay {
+    opacity: .9;
+}
+
+.photo10:hover .overlay {
+    opacity: .9;
+}
+
+.photo11:hover .overlay {
+    opacity: .9;
+}
+
+.overlay h1 {
+    color: white;
+    font-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 3%;
+    text-align: justify;
 }
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+    top: 0;
+    left: 0;
+    margin: 3%;
+    text-align: justify;
