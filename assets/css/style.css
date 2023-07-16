@@ -23,20 +23,22 @@ body {
     background-color: rgb(0, 0, 0);
     justify-content: center;
     width: 100%;
+    position: fixed;
+    z-index: 11;
 }
 
 .flex-container-header>div {
     width: calc(100% / 3);
-    height: 3em;
+    height: 2em;
     text-align: center;
-    line-height: 75px;
+    line-height: 1.85em;
     font-size: 30px;
     color: white;
     font-family: Oswald, sans-serif;
 }
 
 .logo {
-    width: 28%;
+    width: 20%;
     aspect-ratio: 51.95%;
     line-height: 1.5em;
 }
@@ -51,7 +53,10 @@ body {
 .navbar {
     width: 100%;
     background: #3a3a3a;
-    height: 50px;
+    height: 3em;
+    position: fixed;
+    margin-top: 3.7em;
+    z-index: 10;
 }
 
 .navbar ul {
@@ -125,7 +130,7 @@ body {
     justify-content: center;
     width: 80%;
     margin-left:10%;
-    margin-top: 5%;
+    margin-top: 200px;
 }
 
 #hero_div {
