@@ -36,8 +36,8 @@ body {
 }
 
 .logo {
-    height: 80px;
-    width: 154px;
+    width: 28%;
+    aspect-ratio: 51.95%;
 }
 
 .subscribe {
@@ -286,31 +286,7 @@ body {
     }
 }
 
-/* Gallery Wall Flexbox */
-
-.flex-gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: black;
-    justify-content: center;
-    width: 100%;
-}
-
-.flex-gallery div {
-    width: 33%;
-    text-align: center;
-    line-height: 130%;
-    font-size: 30px;
-    color: white;
-    font-size: medium;
-    margin: 10px; 
-    object-fit: cover;
-}
-
-.flex-gallery img {
-    width: 95%;
-}
+/* Gallery Page Flexbox */
 
 .gallery-container {
     max-width: 1224px;
@@ -407,8 +383,12 @@ div.photo-gallery .gallery-column .photo:hover img {
     text-align: center;
 }
 
-@media(max-width: 768px) {
+@media screen and (max-width: 768px) {
+
     .photo-gallery {
         flex-direction: column;
     }
+
 }
+
+
