@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -32,6 +32,7 @@ body {
     line-height: 75px;
     font-size: 30px;
     color: white;
+    font-family: Oswald, sans-serif;
 }
 
 .logo {
@@ -63,7 +64,9 @@ body {
     font-size: 110%;
     color: white;
     list-style-type: none;
-    margin-top: 15px;
+    margin-top: 10px;
+    font-family: Oswald, sans-serif;
+    font-size: large;
 }
 
 .navbar a {
@@ -97,6 +100,7 @@ body {
     line-height: 60px;
     font-size: 30px;
     color: white;
+    font-family: Oswald, sans-serif;
 }
 
 .flex-container-footer ul {
@@ -315,6 +319,14 @@ body {
     padding: 40px 0;
 }
 
+.gallery-container h2 {
+    font-family: Oswald, sans-serif;
+}
+
+.gallery-container h4 {
+    font-family: Oswald, sans-serif;
+}
+
 .title {
     margin-bottom: 2rem;
 }
@@ -371,15 +383,15 @@ div.photo-gallery .gallery-column .photo:hover img {
     text-align: center;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 90%;
-    height: 80%;
-    top: 0;
+    height: 90%;
+    top: 5%;
     left: 5%;
     z-index: 3;
     transition: 0.5s;
     transform: scale(0);
-    transform-origin: bottom;
+    transform-origin: center;
     border-radius: 5px;
     background-color: #3a3a3a;
     color: #ffffff;
@@ -389,6 +401,10 @@ div.photo-gallery .gallery-column .photo:hover img {
     transform: scale(1);
     box-shadow: 0 0 0 10px #3a3a3a;
     opacity: .9;
+}
+
+.gallery-column .photo .overlay .text {
+    text-align: center;
 }
 
 @media(max-width: 768px) {
