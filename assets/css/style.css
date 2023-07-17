@@ -14,10 +14,6 @@ body {
     background-color: #ffffff;
 }
 
-hr {
-    margin-left: 10%;
-}
-
 /*Logo, Header and Subscribe Link*/
 
 
@@ -134,7 +130,7 @@ hr {
     justify-content: center;
     width: 80%;
     margin-left:10%;
-    margin-top: 200px;
+    margin-top: 8%;
 }
 
 #hero_div {
@@ -167,6 +163,10 @@ hr {
     font-size: small;
 }
 
+#hr_1 {
+    margin-left: 10%;
+}
+
 #section_2 {
     display: flex;
     flex-direction: row;
@@ -194,16 +194,26 @@ hr {
 #bottom_section {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
     width:100%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+#hr_3 {
+    margin-left: none;
+    align: left;
 }
 
 #section_3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 70%;
+    align-items: flex-start;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
     height:100%
 }
 
@@ -213,30 +223,32 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
+    margin-top: 2%;
 }
 
 #section_3 .article_intro_3 .photo_sec_3a {
-    width: 40%;
+    width: 20%;
 
 }
 
 #section_3 .article_intro_3 .photo_sec_3a .photo_sec_3b {
-    width: inherit;
+    width: 100%;
     height: inherit;
     object-fit: cover;
     border: 1px solid black;
 }
 
 #section_3 .article_intro_3 .text_sec_3 {
-    width: 60%;
+    width: 40%;
     height: 100%;
+    margin-left: 2%;
 }
 
 #section_4 {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
-    width: 30%;
+    width: 20%;
     height: 100%;
 }
 
