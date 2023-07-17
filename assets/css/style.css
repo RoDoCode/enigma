@@ -14,6 +14,10 @@ body {
     background-color: #ffffff;
 }
 
+hr {
+    margin-left: 10%;
+}
+
 /*Logo, Header and Subscribe Link*/
 
 
@@ -166,9 +170,26 @@ body {
 #section_2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
+#section_2 .article_intro_2 {
+    width: 27.5%;
+    height: 50%;
+    padding: 2%;
+}
 
+#section_2 .article_intro_2 .photo_sec_2a {
+    width: 100%;
+    height: 20em;
+}
+
+#section_2 .article_intro_2 .photo_sec_2a .photo_sec_2b {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border: 2px solid black;
+}
 
 /* Timeline CSS */
 
