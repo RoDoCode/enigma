@@ -13,31 +13,45 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img id="logo" src="assets/images/enigma.jpg" alt="Enigma Logo">
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="timeline.html">Timeline</a>
-                </li>
-                <li>
-                    <a href="topics.html">Topics</a>
-                </li>
-                <li>
-                    <a href="contactus.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+
+    <!-- Standard Header for all Pages -->
+    <header class="flex-container-header">
+        <div>
+            <a href="index.html">
+                <img class="logo" src="assets/images/logo_2_comp.png" alt="Enigma Logo">
+            </a>
+        </div>
+        <div>
+            <p>ENIGMA</p>
+        </div>
+        <div>
+            <a href="subscribe.html" class="subscribe">
+                Subscribe to our newsletter
+            </a>
+        </div>
     </header>
-    <section>
+
+    <!-- Standard Navbar for all Pages - active page underline changes to reflect current page -->
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="timeline.html">Timeline</a>
+            </li>
+            <li>
+                <a href="articles.html" class="active">Articles</a>
+            </li>
+        </ul>
+    </nav>
+
+    <br>
+
+    <section class="content-page">
         <h1>Forgotten heroes of the Enigma story</h1>
         <h2>Polish codebreakers paved the way for Alan Turing to decrypt German messages in the Second World War. Joanne Baker
         commends a gripping tale.</h2>
