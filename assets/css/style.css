@@ -514,3 +514,34 @@ div.photo-gallery .gallery-column .photo:hover img {
     }
 
 }
+
+/* Articles Grid Page */
+
+.articles_grid {
+    display: flex;
+    flex-direction: column;
+}
+
+#article_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articles_grid #article_row .article_row_item {
+    width: 27.5%;
+    height: 50%;
+    padding: 2%;
+}
+
+.articles_grid #article_row .article_row_item .article_pic_bounding {
+    width: 100%;
+    height: 20em;
+}
+
+.articles_grid #article_row .article_row_item .article_pic_bounding .article_pic {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border: 2px solid black;
+}
