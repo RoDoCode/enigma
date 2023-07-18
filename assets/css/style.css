@@ -520,6 +520,7 @@ div.photo-gallery .gallery-column .photo:hover img {
 .articles_grid {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
 }
 
 #article_row {
