@@ -546,3 +546,11 @@ div.photo-gallery .gallery-column .photo:hover img {
     object-fit: cover;
     border: 2px solid black;
 }
+
+.articles_grid #article_row .article_row_item .article_pic_bounding #winston_churchill {
+    object-fit: cover;
+    object-position: right top;
+}
+
+/* Subscribe Page */
+
