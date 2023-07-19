@@ -24,7 +24,9 @@ body {
     flex-direction: row;
     background-color: rgb(0, 0, 0);
     justify-content: center;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     position: fixed;
     z-index: 11;
 }
@@ -42,16 +44,21 @@ body {
 
 /* Header logo - Top Right */
 .logo {
+    display: flex;
     height: 2em;
     aspect-ratio: 51.95%;
     line-height: 1.5em;
+    justify-content: flex-start;
 }
 
 /* Header Subscribe link - Top Right */
 .subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     color: #ffffff;
     font-size: medium;
-    line-height: 50%;
+    line-height: 3em;
 }
 
 /* NAVIGATION BAR */
