@@ -157,9 +157,9 @@ body {
     flex-direction: row;
     background-color: #3a3a3a;
     justify-content: center;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 8%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7em;
 }
 
 /* Hero Image Container within section */
@@ -702,23 +702,41 @@ button:hover {
 /* Desktops, large screens - 1025px — 1200px - Responsive Settings*/
 @media screen and (max-width: 1200px) {
 
+    /* Hero Image with Text - Section 1 */
+    #section_1 {
+        
+}
+
 }
 
 /* Small screens, laptops - 769px — 1024px - Responsive Settings*/
 @media screen and (max-width: 1024px) {
+
+
 
 }
 
 /* iPads, Tablets - 481px — 768px - Responsive Settings*/
 @media screen and (max-width: 768px) {
 
+    .flex-container-header {
+        padding-left: 3%;
+        padding-right: 3%;
+        }
+
+    /* Nav unordered list */
+    .navbar ul {
+        margin-left: 3%;
+        margin-right: 3%;
+}
+
     /* Header - Subscribe */
     .subscribe {
-            flex-direction: column;
-            justify-content: center;
-            font-size: small;
-            line-height: 1.5em;
-            margin-top: 1em;
+        flex-direction: column;
+        justify-content: center;
+        font-size: small;
+        line-height: 1.5em;
+        margin-top: 1em;
         }
 
     /* Place the timelime to the left */
@@ -768,6 +786,6 @@ button:hover {
     }
 
     .flex-container-header div p {
-        visibility: hidden;
+        font-size: x-large;
     }
 }
