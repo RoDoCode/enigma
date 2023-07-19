@@ -643,6 +643,7 @@ button:hover {
 
 /* Article Pages */
 
+/* Articles flex container for content */
 .content_page {
     display: flex;
     flex-direction: column;
@@ -650,6 +651,7 @@ button:hover {
     justify-content: center;
 }
 
+/* Articles text settings */
 .content_page h1 {
     font-family: Oswald, sans-serif;
     font-size: large;
