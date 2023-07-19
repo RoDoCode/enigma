@@ -24,9 +24,9 @@ body {
     flex-direction: row;
     background-color: rgb(0, 0, 0);
     justify-content: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
     position: fixed;
     z-index: 11;
 }
@@ -70,14 +70,15 @@ body {
     position: fixed;
     margin-top: 3.7em;
     z-index: 10;
+
 }
 
 /* Nav unordered list */
 .navbar ul {
     display: flex;
-    justify-content: space-around;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Nav headings */
@@ -139,6 +140,13 @@ body {
 /* Footer Nav links */
 .flex-container-footer a {
     color: white;
+}
+
+/* Footer logo - center */
+.footer_logo {
+    height: 2em;
+    aspect-ratio: 51.95%;
+    line-height: 1.5em;
 }
 
 /* HOMEPAGE */
@@ -704,6 +712,15 @@ button:hover {
 /* iPads, Tablets - 481px — 768px - Responsive Settings*/
 @media screen and (max-width: 768px) {
 
+    /* Header - Subscribe */
+    .subscribe {
+            flex-direction: column;
+            justify-content: center;
+            font-size: small;
+            line-height: 1.5em;
+            margin-top: 1em;
+        }
+
     /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
@@ -748,5 +765,9 @@ button:hover {
     .cancelbtn,
     .signupbtn {
         width: 100%;
+    }
+
+    .flex-container-header div p {
+        visibility: hidden;
     }
 }
