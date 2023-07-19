@@ -704,17 +704,20 @@ button:hover {
 /* Desktops, large screens - 1025px — 1200px - Responsive Settings*/
 @media screen and (max-width: 1200px) {
 
-    /* Hero Image with Text - Section 1 */
-    #section_1 {
-        
-}
+    /* Section 2 Image Container */
+    #section_2 .article_intro_2 .photo_sec_2a {
+        height: 15em;
+    }
 
 }
 
 /* Small screens, laptops - 769px — 1024px - Responsive Settings*/
 @media screen and (max-width: 1024px) {
 
-
+    /* Section 2 Image Container */
+    #section_2 .article_intro_2 .photo_sec_2a {
+        height: 10em;
+    }
 
 }
 
@@ -724,13 +727,13 @@ button:hover {
     .flex-container-header {
         padding-left: 3%;
         padding-right: 3%;
-        }
+    }
 
     /* Nav unordered list */
     .navbar ul {
         margin-left: 3%;
         margin-right: 3%;
-}
+    }
 
     /* Header - Subscribe */
     .subscribe {
@@ -739,7 +742,8 @@ button:hover {
         font-size: small;
         line-height: 1.5em;
         margin-top: 1em;
-        }
+    }
+
     /* Homepage - Section 1 */
     #section_1 {
         width: 100%;
@@ -754,6 +758,25 @@ button:hover {
         height: 50%;
         padding-left: 3%;
         padding-right: 3%;
+    }
+
+    #section_2 {
+        flex-direction: column;
+    }
+
+    /* Section 2 container for image and description */
+    #section_2 .article_intro_2 {
+        display: flex;
+        flex-direction: row;
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    /* Section 2 Image Container */
+    #section_2 .article_intro_2 .photo_sec_2a {
+        width: 10em;
+        height: 10em;
     }
 
     /* Place the timelime to the left */
@@ -796,6 +819,25 @@ button:hover {
 /* Mobile devices - 320px — 480px - Responsive Settings*/
 @media screen and (max-width: 480px) {
 
+    .logo {
+        height: 1.5em;
+        padding-top: .25em;
+    }
+
+    /* Section 2 container for image and description */
+    #section_2 .article_intro_2 {
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    /* Section 2 Image Container */
+    #section_2 .article_intro_2 .photo_sec_2a {
+        width: 480px;
+        height: 480px;
+    }
 
     /* Subscribe Page */
     .cancelbtn,
