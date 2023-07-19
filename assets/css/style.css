@@ -422,6 +422,7 @@ body {
     padding: 40px 0;
 }
 
+/* Gallery Text Settings */
 .gallery-container h2 {
     font-family: Oswald, sans-serif;
 }
@@ -434,6 +435,7 @@ body {
     margin-bottom: 2rem;
 }
 
+/* Gallery flex container for all columns */
 div.photo-gallery {
     width: 92%;
     height: auto;
@@ -445,6 +447,7 @@ div.photo-gallery {
     align-content: flex-start;
 }
 
+/* Gallery flex container for column content */
 div.photo-gallery .gallery-column {
     margin: 0 auto;
     width: 100%;
@@ -454,6 +457,7 @@ div.photo-gallery .gallery-column {
     align-content: flex-start;
 }
 
+/* Gallery container for image */
 div.photo-gallery .gallery-column .photo {
     width: 100%;
     height: auto;
@@ -464,6 +468,7 @@ div.photo-gallery .gallery-column .photo {
     border-radius: 5px;
 }
 
+/* Gallery images settings */
 div.photo-gallery .gallery-column .photo img {
     width: 100%;
     height: auto;
@@ -475,11 +480,13 @@ div.photo-gallery .gallery-column .photo img {
     border-radius: 5px;
 }
 
+/* Image hover effect settings for overlaying text */
 div.photo-gallery .gallery-column .photo:hover img {
     background-color: #3a3a3a;
     opacity: 0.2;
 }
 
+/* Gallery image text overlay */
 .gallery-column .photo .overlay {
     display: flex;
     position: absolute;
@@ -500,6 +507,7 @@ div.photo-gallery .gallery-column .photo:hover img {
     color: #ffffff;
 }
 
+/* Gallery overlay text settings during hover */
 .gallery-column .photo:hover .overlay {
     transform: scale(1);
     box-shadow: 0 0 0 10px #3a3a3a;
@@ -510,14 +518,6 @@ div.photo-gallery .gallery-column .photo:hover img {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-
-    .photo-gallery {
-        flex-direction: column;
-    }
-
-}
-
 /* Articles Grid Page */
 
 .articles_grid {
@@ -526,23 +526,27 @@ div.photo-gallery .gallery-column .photo:hover img {
     margin-top: 5%;
 }
 
+/* Articles flex container for row of three Article image and text sections */
 #article_row {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+/* Articles row item container with image and text */
 .articles_grid #article_row .article_row_item {
     width: 27.5%;
     height: 50%;
     padding: 2%;
 }
 
+/* Articles image container */
 .articles_grid #article_row .article_row_item .article_pic_bounding {
     width: 100%;
     height: 20em;
 }
 
+/* Article image */
 .articles_grid #article_row .article_row_item .article_pic_bounding .article_pic {
     width: inherit;
     height: inherit;
@@ -550,6 +554,7 @@ div.photo-gallery .gallery-column .photo:hover img {
     border: 2px solid black;
 }
 
+/* Winston Churchill image position fix settings */
 .articles_grid #article_row .article_row_item .article_pic_bounding #winston_churchill {
     object-fit: cover;
     object-position: right top;
@@ -557,12 +562,14 @@ div.photo-gallery .gallery-column .photo:hover img {
 
 /* Subscribe Page */
 
+/* Subscription form */
 form {
     display: flex;
     margin-top: 10%;
     justify-content: center;
 }
 
+/* Image on subscribe page */
 #subscribe_image {
     margin-top:20%;
     margin-left:40%;
@@ -570,6 +577,7 @@ form {
     height:20%;
 }
 
+/* Subscribe text input settings */
 input[type=text] {
     width: 100%;
     padding: 15px;
@@ -579,16 +587,19 @@ input[type=text] {
     background: #f1f1f1;
 }
 
+/* Focus effect settings - colour change on selected input box */
 input[type=text]:focus {
     background-color: #ddd;
     outline: none;
 }
 
+/* H-rule settings */
 subscribe_div hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
 
+/* Subscribe button settings */
 button {
     background-color: #04AA6D;
     color: white;
@@ -600,36 +611,34 @@ button {
     opacity: 0.9;
 }
 
+/* Subscribe button hover effect */
 button:hover {
     opacity: 1;
 }
 
+/* Cancel button settings */
 .cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
 }
 
+/* Button position setting */
 .cancelbtn, .signupbtn {
     float: left;
-    width: 50%;
+    width: 40%;
+    margin: 5%
 }
 
+/* Subscribe div settings */
 .subscribe_div {
     padding: 16px;
 }
 
-.clearfix::after {
+/* display and alignment settings for subscribe and cancel buttons */
+.buttons::after {
     content: "";
     clear: both;
     display: table;
-}
-
-@media screen and (max-width: 300px) {
-
-    .cancelbtn,
-    .signupbtn {
-        width: 100%;
-    }
 }
 
 /* Article Pages */
@@ -697,5 +706,21 @@ button:hover {
     /* Make all right containers behave like the left ones */
     .right {
         left: 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .photo-gallery {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
     }
 }
