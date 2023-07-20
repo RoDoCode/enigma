@@ -80,30 +80,44 @@ Balsamiq was use to generate the wireframes.
 This section introduces the user to ENIGMA with eye catching images to grab their attention and guide them on through the site. The page gives the user a rapid understanding of what the site is about and how they can use it. Users are met by a hero image with brief text introducing an interest and key element of the overall Enigma narrative.
 There are different types of articles arrayed in several different sections to allow the user to feel how best they would like to learn.
 
+![Landing Page Image](assets/images/screenshots/homepage.JPG)
+
 ### Navigation Bar
 
 Home, Gallery, Timeline, Articles - users come to the site with different levels of familiarity with the content so a range of different ways to navigate the content are crucial. Some allow the user to absorb and understand the content slowly as they navigate so that each section ahead makes sense while others are more direct for those that know what they are looking for.
+
+![Header Image](assets/images/screenshots/header.JPG)
 
 ### Gallery
 
 A collection of images with clear descriptions with hyperlinks to relevant pages where users can learn more. The images themselves are large and detailed, they are meant to be inspiring and interesting in and of themselves; a rare glimpse into the past.
 
+![Gallery Image](assets/images/screenshots/gallery.JPG)
+
 ### Timeline
 
 A single page interactive info-graphic which the user can learn from and also use to navigate the site. The timeline will follow the start of the Enigma story through to it's conclusions with hyperlinks at each key stage which has a relevant page on the site
 
-### Article
+![Timeline Image](assets/images/screenshots/timeline.JPG)
 
-This is a drop down with a list of all the pages on the site, titled clearly for a user who is more familiar with the topics or for anyone to explore at their leisure. Article pages cover key timeline periods with an overview of the narrative with links to more specific detailed pages
+### Articles
+
+This is a grid page with a list of all the pages on the site, titled clearly for a user who is more familiar with the topics or for anyone to explore at their leisure. Article pages cover key timeline periods with an overview of the narrative with links to more specific detailed pages
+
+![Articles Page Image](assets/images/screenshots/articles.JPG)
 
 ### Subscribe to Newsletter
 
 A simple form which allows a user to sign up to a mailing list and to leave a little feedback with suggestions for amendments or additions to the site. There are several drop downs for the user to input their own email for follow up responses and also to define their background student/academic/expert
 
+![Subscription Page Image](assets/images/screenshots/subscribe.JPG)
+
 ### The Footer
 
 The footer section includes links to relevant social media sites for Enigma . The links will open to a new tab to allow easy navigation for the user.
 The footer also include site navigation links so users don't have to scroll to the top of the page.
+
+![Footer Image](assets/images/screenshots/footer.JPG)
 
 ### Features Left to Implement
 
@@ -121,7 +135,7 @@ All of the articles this site would host are simply too numerous to curate and i
     - [W3C CSS Validator Results](ROOORY ADD THIS AT THE END)
 - #### Accessibility
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
-    - [Lighthouse Validator Results](/../assets/images/screenshots/lighthouse.PNG)
+    - [Lighthouse Validator Results](../assets/images/screenshots/lighthouse_2.JPG)
 
 ### Form Testing
 
@@ -139,9 +153,13 @@ Testing has been conducted on all features of the Enigma site up to its current 
 
 The site has been tested via dev tools on the full range of screens available there. The pages are responsive to changes in the desktop window size. The site has been tested on: 1920x1080 monitor, 1082x1048 monitor and an iPhone 13 Pro Max screen.
 
+![Responsinator Screenshot](assets/images/screenshots/responsinator_1.JPG)
+
 - I also used the following websites to test responsiveness:
   - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Frodocode.github.io%2Fenigma%2F)
   - [Am I Responsive](https://ui.dev/amiresponsive?url=https://rodocode.github.io/enigma/)
+
+![Enigma Am I Responsive Gallery Image](assets/images/screenshots/am_i_responsive_gallery.JPG)  
 
 ### User Testing
 
