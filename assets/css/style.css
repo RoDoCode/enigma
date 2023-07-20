@@ -59,12 +59,7 @@ body {
     color: #ffffff;
     font-size: medium;
     line-height: 1.5em;
-    text-decoration: none;
     margin-top: 1em;
-}
-
-.flex-container-header div a:hover {
-    border-bottom: 2px solid #ffffff;
 }
 
 /* NAVIGATION BAR */
@@ -290,6 +285,8 @@ body {
     margin-top: 2%;
     height: 100%
 }
+
+
 /* Section 3 image and article text container */
 #section_3 .article_intro_3 {
     position: relative;
@@ -812,10 +809,17 @@ button:hover {
         margin-top: 1em;
     }
 
+    .flex-container-footer {
+        width: 52em
+    }
+
     /* Homepage - Section 1 */
     #section_1 {
-        width: 100%;
+        width: 52em;
         margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
         flex-direction: column;
         margin-top: 0;
     }
@@ -830,6 +834,9 @@ button:hover {
 
     #section_2 {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     /* Section 2 container for image and description */
@@ -845,6 +852,27 @@ button:hover {
     #section_2 .article_intro_2 .photo_sec_2a {
         width: 10em;
         height: 10em;
+    }
+
+    #bottom_section {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    #section_3 {
+        justify-content: center;
+        align-items: center;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #section_4 {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
     /* Place the timelime to the left */
@@ -890,6 +918,10 @@ button:hover {
     .logo {
         height: 1.5em;
         padding-top: .25em;
+    }
+
+    #section_1 {
+        width: 33em;
     }
 
     /* Section 2 container for image and description */
