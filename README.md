@@ -8,7 +8,7 @@ Enigma includes articles accompanied by historical photographs which elaborate o
 
 The live link can be found here - [Enigma](https://rodocode.github.io/enigma/)
 
-![Enigma Am I Responsive Image](assets/images/am-i-responsive.png)
+![Enigma Am I Responsive Image](assets/images/screenshots/am_i_responsive.PNG)
 
 Searchers for this content may be children at school doing projects on the topic so the content is sensitive to this audience and avoids any specific content which might be disturbing or require parental guidance.
 
