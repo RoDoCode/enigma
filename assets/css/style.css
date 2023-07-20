@@ -509,7 +509,7 @@ body {
 /* Gallery Text Settings */
 .gallery-container h2 {
     font-family: Oswald, sans-serif;
-    margin-top: 5em;
+    margin-top: 2.5em;
 }
 
 .gallery-container h4 {
@@ -779,10 +779,6 @@ button:hover {
 
 /* MEDIA QUERIES */
 
-/* Extra large screens, TV - 1025px — 1200px - Responsive Settings*/
-@media screen and (min-width: 1201px) {
-
-}
 
 /* Desktops, large screens - 1025px — 1200px - Responsive Settings*/
 @media screen and (max-width: 1200px) {
@@ -929,6 +925,12 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .flex-container-footer {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }
 
