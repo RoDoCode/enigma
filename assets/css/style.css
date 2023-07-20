@@ -508,6 +508,7 @@ body {
 /* Gallery Text Settings */
 .gallery-container h2 {
     font-family: Oswald, sans-serif;
+    margin-top: 5em;
 }
 
 .gallery-container h4 {
