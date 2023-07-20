@@ -627,34 +627,34 @@ div.photo-gallery .gallery-column .photo:hover img {
 }
 
 /* Articles flex container for row of three Article image and text sections */
-#article_row {
+.article_row {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 /* Articles row item container with image and text */
-.articles_grid #article_row .article_row_item {
+.articles_grid .article_row .article_row_item {
     width: 27.5%;
     height: 50%;
     padding: 2%;
 }
 
 /* Articles image container */
-.articles_grid #article_row .article_row_item .article_pic_bounding {
+.articles_grid .article_row .article_row_item .article_pic_bounding {
     width: 100%;
     height: 20em;
 }
 
 /* Article image */
-.articles_grid #article_row .article_row_item .article_pic_bounding .article_pic {
+.articles_grid .article_row .article_row_item .article_pic_bounding .article_pic {
     width: inherit;
     height: inherit;
     object-fit: cover;
     border: 2px solid black;
 }
 
-.articles_grid #article_row .article_row_item {
+.articles_grid .article_row .article_row_item {
     text-decoration: none;
 }
 
@@ -671,7 +671,7 @@ div.photo-gallery .gallery-column .photo:hover img {
 }
 
 /* Winston Churchill image position fix settings */
-.articles_grid #article_row .article_row_item .article_pic_bounding #winston_churchill {
+.articles_grid .article_row .article_row_item .article_pic_bounding #winston_churchill {
     object-fit: cover;
     object-position: right top;
 }
@@ -813,7 +813,7 @@ button:hover {
         height: 10em;
     }
 
-    .articles_grid #article_row .article_row_item .article_pic_bounding {
+    .articles_grid .article_row .article_row_item .article_pic_bounding {
         height: 15em;
         width: 15em;
     }
@@ -947,7 +947,7 @@ button:hover {
         align-items: center;
     }
 
-    #article_row {
+    .article_row {
         flex-direction: column;
         width: 94%;
         margin-left: 3%;
@@ -956,7 +956,7 @@ button:hover {
         align-items: center;
     }
 
-    .articles_grid #article_row .article_row_item {
+    .articles_grid .article_row .article_row_item {
         width: 50%;
         justify-content: center;
         align-items: center;
@@ -1002,7 +1002,7 @@ button:hover {
         width: 100%;
     }
 
-    .articles_grid #article_row .article_row_item .article_pic_bounding {
+    .articles_grid .article_row .article_row_item .article_pic_bounding {
         height: 10em;
     }
 
