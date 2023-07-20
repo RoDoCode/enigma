@@ -189,17 +189,20 @@ body {
 /* Hero text settings */
 #hero_div_text p {
     font-weight: 400;
+    align-content: center;
 }
 
 #section_1 h1 {
     color: yellow;
     font-family: Oswald, sans-serif;
     font-style: bold;
+    align-content: center;
 }
 
 #section_1 h3 {
     color: red;
     font-family: Oswald, sans-serif;
+    align-content: center;
 }
 
 #section_1 h4 {
@@ -210,6 +213,12 @@ body {
 /* H-rule Styling */
 #hr_1 {
     margin-left: 10%;
+}
+
+hr {
+    height: 5px;
+    width: 100%;
+    color: black;
 }
 
 /* Homepage section with 3 divisions */
@@ -385,12 +394,14 @@ body {
     font-family: Lato, sans-serif;
     font-style: bold;
     font-size: large;
+    align-content: center;
 }
 
 #section_4 h2 {
     color: black;
     font-family: Oswald, sans-serif;
     font-size: medium;
+    align-content: center;
 }
 
 #section_4 h3 {
@@ -399,6 +410,7 @@ body {
     font-size: medium;
     color: red;
     font-style: bold;
+    align-content: center;
 }
 
 /* TIMELINE */
