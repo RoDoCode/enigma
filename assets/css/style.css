@@ -798,6 +798,11 @@ button:hover {
         height: 10em;
     }
 
+    .articles_grid #article_row .article_row_item .article_pic_bounding {
+        height: 15em;
+        width: 15em;
+    }
+
 }
 
 /* iPads, Tablets - 481px — 768px - Responsive Settings*/
@@ -927,6 +932,21 @@ button:hover {
         align-items: center;
     }
 
+    #article_row {
+        flex-direction: column;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .articles_grid #article_row .article_row_item {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
     .flex-container-footer {
         width: 94%;
         margin-left: 3%;
@@ -965,6 +985,10 @@ button:hover {
     .cancelbtn,
     .signupbtn {
         width: 100%;
+    }
+
+    .articles_grid #article_row .article_row_item .article_pic_bounding {
+        height: 10em;
     }
 
     .flex-container-header div p {
