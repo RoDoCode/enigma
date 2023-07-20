@@ -92,7 +92,7 @@ Home, Gallery, Timeline, Articles - users come to the site with different levels
 
 A collection of images with clear descriptions with hyperlinks to relevant pages where users can learn more. The images themselves are large and detailed, they are meant to be inspiring and interesting in and of themselves; a rare glimpse into the past.
 
-![Gallery Image](assets/images/screenshots/gallery.JPG)
+![Gallery Image](assets/images/screenshots/gallery.jpg)
 
 ### Timeline
 
@@ -135,7 +135,8 @@ All of the articles this site would host are simply too numerous to curate and i
     - [W3C CSS Validator Results](ROOORY ADD THIS AT THE END)
 - #### Accessibility
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
-    - [Lighthouse Validator Results](../assets/images/screenshots/lighthouse_2.JPG)
+
+![Lighthouse Validator Results](assets/images/screenshots/lighthouse_2.JPG)
 
 ### Form Testing
 
