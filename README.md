@@ -45,7 +45,7 @@ The photographs used in Enigma are integral to the site. These images speak a th
 
 ### Colours
 
-The colour scheme of Enigma is grey scale with pops of red. This matches the styling of a lot of other historical sites and is a familiar colour palatte used in archival educational sites, this lets users inuitively feel the setting of the content. Helpfully this colour scheme allows for high contrast between text and backgrounds for easy on screen reading.
+The colour scheme of Enigma is grey scale, using dark grey, #3a3a3a, with pops of red, rgb 0,0,255. This matches the styling of a lot of other historical sites and is a familiar colour palatte used in archival educational sites, this lets users inuitively feel the setting of the content. Helpfully this colour scheme allows for high contrast between text and backgrounds for easy on screen reading.
 
 ### Fonts
 
@@ -140,18 +140,22 @@ Testing has been conducted on all features of the Enigma site up to its current 
 The site has been tested via dev tools on the full range of screens available there. The pages are responsive to changes in the desktop window size. The site has been tested on: 1920x1080 monitor, 1082x1048 monitor and an iPhone 13 Pro Max screen.
 
 - I also used the following websites to test responsiveness:
-  - [Responsinator](http://www.responsinator.com/?ROOOOOOORRRY)
-  - [Am I Responsive](http://ami.responsivedesign.is/?ROOOOOOORRRY)
+  - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Frodocode.github.io%2Fenigma%2F)
+  - [Am I Responsive](https://ui.dev/amiresponsive?url=https://rodocode.github.io/enigma/)
 
 ### User Testing
 
 Test users have been used and observed navigating the site unaided, and asked to find their way to specific pages without prior knowledge of how to get there. All test users successfully navigated to their targets after less than a minute and in fewer than 4 clicks.
 
 ### Bugs list:
+- Bug with headers and footers not loading in the article sub pages: this turned out to be due to the pages being in a subfolder so requiring a "../" before each target address.
+- Bug with margins in footer after media query changes the width of the footer for small screens: this was due to a property being carried without it being set to zero
+- External links were opening in the same tab: they all required a blank target attribute to open a new tab when clicked.
+- H-rules all disappeared without outdated attributes: had to add a border-top to make them visible.
 
 ### Unfixed Bugs
 
-No further bugs found at this time
+- Bug with the underline of the subscribe button meant that when it is removed and made to only appear during a hover action the underline becomes the entire width of the container and underlines one third of the screen. While I was keen to have this reactive feature on the subscribe button this was not integral to the user experience and I chose to remove the feature and to have fixed underlining making it clear the text is still a link. 
 
 ## Deployment
 
@@ -205,6 +209,12 @@ My thanks to Antonio Rodriguez for his mentoring advice through this project. Li
 - https://www.nationalww2museum.org/war/articles/alan-turing-betchley-park
 - https://www.scotsman.com/news/obituaries/obituary-mavis-batey-mbe-cryptologist-1552691
 - https://en.wikipedia.org/wiki/ENIAC
+- https://www.hp.com/ca-en/shop/offer.aspx?p=computer-history-all-about-the-eniac
+- https://www.theguardian.com/world/2013/nov/20/mavis-batey
+- https://www.britannica.com/place/Bletchley-Park
+- https://www.britannica.com/place/Bletchley-Park
+- https://www.ciphermachinesandcryptology.com/en/enigmatech.htm
+- https://www.iwm.org.uk/history/spies-saboteurs-and-d-day
 
 ### Sources for images:
 
@@ -216,8 +226,10 @@ My thanks to Antonio Rodriguez for his mentoring advice through this project. Li
 - https://www.gchq.gov.uk/information/how-codebreakers-helped-fight-battle-britain
 - https://themilitarymuseums.ca/visit/events-and-exhibits/permanent-exhibits/enigma-machine
 
-### Formatting Techniques
+Some images were taken from their respective source articles. 
 
+### Formatting Techniques used to advise
+- https://css-tricks.com/almanac/properties/a/align-content/
 - https://www.w3schools.com/howto/howto_css_timeline.asp
 - https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout
 - https://stackoverflow.com/questions/67552405/flexbox-image-gallery-with-diffrent-sizes
@@ -231,6 +243,7 @@ My thanks to Antonio Rodriguez for his mentoring advice through this project. Li
 - https://www.educative.io/answers/how-to-crop-an-image-in-css
 - https://www.geeksforgeeks.org/html-hr-color-attribute/
 - https://www.geeksforgeeks.org/how-to-wrap-the-text-around-an-image-using-html-and-css/
+- https://www.yourhtmlsource.com/myfirstsite/basiclinks.html#:~:text=html%20in%20your%20directories%2C%20you,href%3D%22folder%2F%22%20.
 - https://medium.com/@miguelznunez/how-to-create-a-responsive-image-grid-gallery-with-html-css-flexbox-1a4ea78f1ab3#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjY3NmRhOWQzMTJjMzlhNDI5OTMyZjU0M2U2YzFiNmU2NTEyZTQ5ODMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2ODk0NjI2MjAsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExNTM3ODU0NTIyMDY2MjQ1NTQ4MSIsImVtYWlsIjoicm9yeS5kb3dAaG90bWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IlJvcnkgRG93IiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FBY0hUdGM2Y2dyRFhESTJUSkpsVXVMVVdUYUc2bnlPRkpTa0pxM0VvMWg1ai1rQzd1Zz1zOTYtYyIsImdpdmVuX25hbWUiOiJSb3J5IiwiZmFtaWx5X25hbWUiOiJEb3ciLCJpYXQiOjE2ODk0NjI5MjAsImV4cCI6MTY4OTQ2NjUyMCwianRpIjoiZTMxYzVlMmUwYWJkY2E1MDA5MGE1ODI3ODljMGZhNTEyYWQ4ODNmZSJ9.FW51iV-rAykT5hOjUnpRpN-MJVoEFrgPw_NkMjk6XwJoCHYEzIsFqvY9uxEtfkl4BGVUxzpJgsqjguCTFvwRvsDQjmLxjUD0So5VF6oDb20Cfz7SeGY6oKLdMYcWfvxrjxF6MFVqdiuVM6wv3PChZaQVc63OB2j465MYN33cg92k8KCFmXlcrvNLhyBYdVKGGyMdti248PkrzNcVg9lp9-Ey6a5DtGc6UQ4DSsqv_SW8wEJibKFAQ8r6W-7GkKPu4u3UKnF5W-x5Kw0HiDRG9Tm42SVOrmAAQSPAkRxRrZpKy_cdLO4fO-mST6MU6zdN0SDO_E6dv_zYcwIAgNoC8Q
 -
 
