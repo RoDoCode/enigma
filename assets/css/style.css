@@ -58,7 +58,13 @@ body {
     justify-content: flex-end;
     color: #ffffff;
     font-size: medium;
-    line-height: 3em;
+    line-height: 1.5em;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.flex-container-header div a:hover {
+    border-bottom: 2px solid #ffffff;
 }
 
 /* NAVIGATION BAR */
