@@ -121,7 +121,7 @@ All of the articles this site would host are simply too numerous to curate and i
     - [W3C CSS Validator Results](ROOORY ADD THIS AT THE END)
 - #### Accessibility
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
-    - [Lighthouse Validator Results](ROOORY ADD THIS AT THE END)
+    - [Lighthouse Validator Results](/../assets/images/screenshots/lighthouse.PNG)
 
 ### Form Testing
 
