@@ -639,6 +639,22 @@ div.photo-gallery .gallery-column .photo:hover img {
     border: 2px solid black;
 }
 
+.articles_grid #article_row .article_row_item {
+    text-decoration: none;
+}
+
+.articles_grid h1 {
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+    color: red;
+}
+
+.articles_grid h2 {
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
 /* Winston Churchill image position fix settings */
 .articles_grid #article_row .article_row_item .article_pic_bounding #winston_churchill {
     object-fit: cover;
