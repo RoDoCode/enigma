@@ -131,10 +131,10 @@ All of the articles this site would host are simply too numerous to curate and i
 
 - #### HTML
   - No errors were returned when passing through the official W3C Markup Validator
-    - [W3C Validator Results](ROOORY ADD THIS AT THE END)
+![W3C Validator Results](assets/images/screenshots/html_validator.JPG)
 - #### CSS
   - No errors were found when passing through the official W3C CSS Validator
-    - [W3C CSS Validator Results](ROOORY ADD THIS AT THE END)
+![W3C CSS Validator Results](assets/images/screenshots/css_validator.JPG)
 - #### Accessibility
   - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
 

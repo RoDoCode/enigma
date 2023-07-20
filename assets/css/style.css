@@ -46,7 +46,6 @@ body {
 .logo {
     display: flex;
     height: 2em;
-    aspect-ratio: 51.95%;
     line-height: 1.5em;
     justify-content: flex-start;
 }
@@ -146,7 +145,6 @@ body {
 /* Footer logo - center */
 .footer_logo {
     height: 2em;
-    aspect-ratio: 51.95%;
     line-height: 1.5em;
 }
 
@@ -179,23 +177,25 @@ body {
 
 /* Hero Image accompanying text */
 #hero_div_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60%;
     height: 50%;
     color: white;
     margin: 1%;
-    align: center;
+    align-items: center;
 }
 
 /* Hero text settings */
 #hero_div_text p {
     font-weight: 400;
-    align-content: center;
+    text-align: center;
 }
 
 #section_1 h1 {
     color: yellow;
     font-family: Oswald, sans-serif;
-    font-style: bold;
     align-content: center;
 }
 
@@ -258,7 +258,6 @@ hr {
 #section_2 h1 {
     color: red;
     font-family: Oswald, sans-serif;
-    font-style: bold;
     font-size: large;
 }
 
@@ -284,8 +283,7 @@ hr {
 
 /* H-rule styling */
 #hr_3 {
-    margin-left: none;
-    align: left;
+    margin-left: 0;
 }
 
 /* Homepage Bottom Left Flex container */
@@ -336,7 +334,6 @@ hr {
 #section_3 h1 {
     color: red;
     font-family: Oswald, sans-serif;
-    font-style: bold;
     font-size: large;
 }
 
@@ -400,7 +397,6 @@ hr {
 #section_4 h1 {
     color: black;
     font-family: Lato, sans-serif;
-    font-style: bold;
     font-size: large;
     align-content: center;
 }
@@ -417,7 +413,6 @@ hr {
     font-family: Oswald, sans-serif;
     font-size: medium;
     color: red;
-    font-style: bold;
     align-content: center;
 }
 
